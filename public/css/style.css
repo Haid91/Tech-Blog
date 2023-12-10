@@ -1,0 +1,42 @@
+.home-header {
+    padding-left: 20px;
+    color: #ccc;
+  }
+  header {
+    background-color: black;
+    color: #ccc;
+    height: 10vh;
+  }
+  body{
+    background-color: rgba(83, 128, 0, 0.699);
+  }
+  .nav-a {
+    color: #ccc;
+  }
+  .header-h1 {
+    text-align: left;
+  }
+  .btn {
+    background-color: #ccc;
+    color: black;
+  }
+  
+  header,
+  .project:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .no-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    color: #ccc;
+    text-decoration: none;
+    font-size: 100%;
+  }
+  
+  .no-button:hover {
+    color: red;
+    text-decoration: underline;
+  }
